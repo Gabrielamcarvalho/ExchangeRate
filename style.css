@@ -18,9 +18,13 @@ body{
     justify-content: center;
     height: 100vh;
     padding: 20px;
+    margin-top: 2rem;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--white);
+}
+a{
+    text-decoration: none;
 }
 h1{
     color: var(--green);
@@ -97,7 +101,7 @@ footer {
 	display: flex;
 	flex-direction: row;
   justify-content: space-around;
-  position: fixed;
+
 	bottom: 0;
 	width: 100%;
 	color: white;
